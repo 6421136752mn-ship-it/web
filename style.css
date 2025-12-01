@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff5e6;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff6347;
+    color: white;
+    padding: 20px;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.producto {
+    border: 2px solid #ff6347;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 10px;
+    width: 220px;
+}
+
+.producto h3 {
+    margin: 10px 0 5px;
+}
+
+.producto p {
+    margin: 5px 0;
+}
+
+.producto a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #ff6347;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.form-pedido {
+    margin: 20px auto;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-pedido input[type="text"],
+.form-pedido input[type="number"] {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.form-pedido input[type="submit"] {
+    padding: 10px;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tabla-pedidos {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.tabla-pedidos th, .tabla-pedidos td {
+    border: 1px solid #ff6347;
+    padding: 10px;
+    text-align: center;
+}
